@@ -1,0 +1,80 @@
+.nike{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.head2 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.head21 table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.head21 th,
+.head21 td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.head21 th.head221,
+.head21 td.head211 {
+    width: 10%;
+}
+
+.head21 th.head222,
+.head21 td.head212 {
+    width: 20%;
+}
+
+.head21 th.head223,
+.head21 td.head213 {
+    width: 20%;
+}
+
+.head21 th.head224,
+.head21 td.head214 {
+    width: 20%;
+}
+
+.head21 th.head225,
+.head21 td.head215 {
+    width: 30%;
+}
+
+.head21 .head225 button {
+    margin-right: 5px;
+}
+
+.head21 .head2151,
+.head21 .head2152 {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.head21 .head2151 {
+    background-color: #28a745;
+}
+
+.head21 .head2152 {
+    background-color: #007bff;
+}
+
+.head21 .head2153 {
+    background-color: #dc3545;
+}
+
+.head21 .head2151:hover,
+.head21 .head2152:hover,
+.head21 .head2153:hover {
+    opacity: 0.8;
+}

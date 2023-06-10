@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* Bước 1: nav */
+.tong{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f5f5f5;
+        width: 100%;
+        height: 38px;
+}
+.box{
+    margin-left: 40px;
+}
+.box1{
+    margin-right: 60px;
+    font-size: 13px;
+    font-family: system-ui;
+    display: flex;
+}
+.gach {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Bước 2: */
+.nike {
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(3, 18, 26, 0.15);
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+        
+}
+.icon svg{
+    margin-right: 20px;
+}
+.form-control{
+    border-radius: 25px;
+}
+.nike1{
+        margin-left: 30px;
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+    padding-left: 310px; 
+    font-size: 20px;
+}
+.nav-item li{
+    position: relative;
+    
+}
+.nav-item:hover .menu{
+    display: block;
+} 
+.menu{
+    position: absolute;
+    background-color: white;
+    font-size: 15px;
+    padding: 20px;
+    display: none;
+}
+.menu li {
+    display: block;
+    margin-bottom: 10px;
+}
+.menu .cochu{
+    font-size: 19px;
+}
+/* bước 3 */
+.container{
+max-width: 95%;
+margin-top: 100px;
+}
+.jodan{
+    text-align: center;
+}
+.jodan img{
+    width: 100%;
+}
+.na {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.shop{
+    padding: 50px 
+}
+.air{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.shop h1{   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.shop button{
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex {
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 0.75rem;
+    margin-right: 2.5rem;
+    
+}
+.text{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+
+
+
+.image {
+    display: flex;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+   
+}
+.image img {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+.tien{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.money {
+    font-weight: bold;
+    text-align: left;
+}
+.explore{
+    font-size: 30px;
+    margin-top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.anh1 {
+    display: flex;
+}
+.anh1 img{
+    width: 99%;
+    height: auto;
+    
+    
+}
+.anh2{
+    position: relative;
+}
+.pos{
+    position: absolute;
+    bottom: 50px;
+        left: 70px;
+}
+.anh2 p{
+    font-size: 25px;
+    color: white;
+    
+}
+.anh2 button{
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    border: none;
+}
+.dis{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 90px;
+    
+}
+.clothing{
+    display: flex;
+}
+.clothing img {
+    width: 97%;
+}
+.clothing p {
+    margin-top: 25px;
+}
+.trousers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.all{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+.overLay {
+    height: 100vh;
+    background-color: #4a46466c;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.logIn {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: white;
+    color: black;
+
+
+}
+
+.logIn h2 {
+    text-align: center;
+}
+
+.logIn .form-group {
+    margin-bottom: 15px;
+}
+
+.logIn label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.logIn input[type="text"],
+.logIn input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.logIn button{
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Phần cuối */
+.find{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.become{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.help{
+    font-size: 13px;
+}
+.linkk i {
+    width: 35px;
+    color: black;
+    background-color: white;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 8px;
+}
+
+.rights{
+    background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        font-size: 13px;
+}
+
+
+.guides{
+    width: 50%;
+    text-align: right;
+}
+.guides span{
+    margin-right: 20px;
+}
+
+
+/* reponsive */
+/* Mobile */
+@media(min-width: 375px) and (max-width: 812px) {
+    .tong .box1{
+        margin-right: 0px;
+    }
+    .nav{
+        display: none;
+    }
+    .d-flex{
+        justify-content: right;
+    }
+    .form-control{
+        width: 50%;
+        display: none;
+    }
+    .icon{
+        margin-right: 0px;
+    }
+    .icon svg{
+        margin-right: 0px;   
+        width: 30px;
+        height: auto;
+        margin-right: 10px
+    }
+    /* p2 */
+    .container{
+        margin-top: 33px;
+    }
+    .na{
+        font-size: 17px;
+    }
+    .shop{
+        padding: 20px;
+    }
+    .shop h1{
+        font-size: 40px;
+    }
+    .flex{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .explore{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .pos{
+        display: none;
+    }
+    .dis{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .clothing p{
+        margin-top: 0px;
+    }
+    .trousers{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .tops{
+        display: none;
+    }
+    .hat{
+        display: none;
+
+    }
+    .kid{
+        display: none;
+    }
+    /* cuối */
+    .find{
+        display: block;
+        padding: 20px;
+    }
+    .help{
+        display: none;
+    }
+    .rights{
+        justify-content: left;
+        padding: 20px;
+    }
+    .guides{
+        display: none;
+    }
+    /*  */
+    .logIn{
+        max-width: 325px;
+    }
+}
